@@ -7,17 +7,19 @@ GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.16.3)
-    rake (10.5.0)
+    rake (12.3.3)
     sqlite3 (1.5.0-x86_64-darwin)
+    sqlite3 (1.5.0-x86_64-linux)
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 2.3)
   mini-rails!
   minitest (~> 5.0)
-  rake (~> 10.0)
+  rake (~> 12.3)
   sqlite3
 
 BUNDLED WITH
