@@ -8,10 +8,12 @@ GEM
   specs:
     minitest (5.16.3)
     rake (10.5.0)
-    sqlite3 (1.5.0-x86_64-darwin)
+    sqlite3 (1.5.1-x86_64-darwin)
+    sqlite3 (1.5.1-x86_64-linux)
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 2.3)
